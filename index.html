@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" >
+
+  </head>
+<body>
+  <nav>
+    <div class="left">My Portfolio</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+  </nav>
+
+  <section class="firstSection video-hero" id="home">
+  
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="bg-video.mp4" type="video/mp4">
+  </video>
+
+  <div class="hero-content">
+    <div class="leftSection">
+      Hello, I'm <span class="purple">Anamika</span> 
+      <div>and I am a passionate</div>
+      <span id="element"></span>
+      <div class="buttons">
+        <a href="./Anamika_Resume.pdf" class="btn" download>Download Resume</a>
+        <a href="https://github.com/anamika2205" class="btn" target="_blank">Visit GitHub</a>
+      </div>
+    </div>
+    <div class="rightSection" data-aos="fade-left">
+      <img src="dev.jpg" alt="Illustration of a web developer" />
+    </div>
+  </div>
+  </section>
+
+  <hr style="border: 0; background: #9c97f1; height: 1.2px; margin: 60px 84px;" />
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2 class="section-heading">About Me</h2>
+      <div class="about-box">
+        <p>
+          I am a motivated Computer Science undergraduate at COER University, Roorkee,
+          with a strong interest in software development and web technologies. I have
+          hands-on experience in Java, Python, JavaScript, and modern web frameworks.
+          I enjoy building interactive, user-friendly applications and have worked on
+          projects ranging from AI-powered chatbots to full-stack web applications.
+        </p>
+        <p>
+        I am actively seeking internship opportunities where I can apply my technical
+        knowledge, strengthen problem-solving skills, and contribute to real-world projects.
+        </p>
+        <ul>
+          <li>Computer Science undergraduate at COER University, Roorkee</li>
+          <li>Hands-on experience in Java, Python, JavaScript, and MySQL</li>
+          <li>Developed AI-powered chatbot for mental health monitoring</li>
+          <li>Built responsive web applications using modern frameworks</li>
+          <li>Strong focus on clean UI, performance, and user experience</li>
+        </ul>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+  <h2 class="section-heading">Education</h2>
+
+  <div class="education-box">
+    <div class="edu-top">
+      <div class="edu-icon">🎓</div>
+        <div class="edu-content">
+          <h3>Bachelor of Technology – Computer Science</h3>
+          <p class="edu-college">COER University, Roorkee</p>
+          <p class="edu-year">Aug 2023 – July 2027</p>
+          <p class="edu-cgpa"><strong>CGPA:</strong> 8.07</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="edu-bottom">
+      <p><strong>Intermediate:</strong> 2021 – 2022</p>
+      <p><strong>High School:</strong> 2019 – 2020</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2 class="section-heading">Skills</h2>
+    <div class="skills-container">
+
+      <div class="skill-card">
+        <div class="skill-header">
+          <div class="skill-icon">💻</div>
+          <h3 >Technical Skills</h3>
+        </div>
+        <ul>
+          <li>Java, Python, JavaScript, C++</li>
+          <li>HTML, CSS, React.js</li>
+          <li>Node.js, vite</li>
+          <li>MySql, MongoDB</li>
+          <li>Git, GitHub, VS Code, Vercel</li>
+          <li>DSA, OOP, REST API's</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-header">
+          <div class="skill-icon">👥</div>
+          <h3 >Soft Skills</h3>
+        </div>
+        <ul>
+          <li>Problem Solving</li>
+          <li>Teamwork</li>
+          <li>Communication</li>
+          <li>Adaptability</li>
+          <li>Time Management</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+  <h2 class="section-heading">Experience</h2>
+
+  <div class="experience-box">
+
+    <div class="exp-top">
+
+      <div class="exp-icon">💼</div>
+      <div class="exp-content">
+        <h3>Java Programming Intern – CodSoft</h3>
+        <p><strong>Aug 2024 – Sep 2024</strong></p>
+        <ul style="margin-top:10px; line-height:1.8;">
+          <li>Developed Java applications including Guess the Number Game, Student Grade Calculator, and ATM Interface</li>
+          <li>Applied Object-Oriented Programming concepts, exception handling, and file I/O</li>
+          <li>Improved debugging, testing, and problem-solving skills through project-based development</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+  <h2 class="section-heading">Projects</h2>
+
+  <div class="projects">
+
+  <div class="project-card">
+  <h3>AI-Powered Chatbot</h3>
+  <p>
+    Developed an intelligent chatbot that provides real-time mental health support and emotional wellness guidance.
+    Built with HTML, CSS, and JavaScript, it uses NLP-based conversational logic to understand user emotions and
+    deliver empathetic, context-aware responses. Features include mood tracking prompts, coping strategy suggestions,
+    and a calming UI designed to create a safe space for users seeking help.
+  </p>
+  <div class="tech-tags">
+    <span>HTML</span><span>CSS</span><span>JavaScript</span><span>NLP</span>
+  </div>
+  <a href="https://github.com/anamika2205/chatbot" target="_blank">View on GitHub</a>
+</div>
+
+<div class="project-card">
+  <div class="project-title">
+    <h3>Hotel Booking Website</h3>
+  </div>
+  <p>
+    A comprehensive full-stack hotel booking platform where users can search for hotels, view room availability,
+    and make reservations. The front-end is built with React.js and Vite for fast performance, while the back-end
+    uses Node.js and Express.js to handle REST APIs. Includes user authentication (signup/login), booking management
+    dashboard, date-based filtering, and a responsive design optimized for all devices.
+  </p>
+  <div class="tech-tags">
+    <span>React.js</span><span>Vite</span><span>Node.js</span><span>Express.js</span>
+  </div>
+  <a href="https://github.com/anamika2205/hotel-booking" target="_blank">View on GitHub</a>
+</div>
+
+<div class="project-card">
+  <h3>Grocery Store Website</h3>
+  <p>
+    A fully responsive e-commerce grocery shopping website that allows users to browse products by category,
+    add items to a dynamic shopping cart, and manage quantities. Built with vanilla HTML, CSS, and JavaScript,
+    it features optimized DOM manipulation for smooth interactions, a clean product listing layout with search
+    functionality, and a cart summary with real-time price calculation.
+  </p>
+  <div class="tech-tags">
+    <span>HTML</span><span>CSS</span><span>JavaScript</span>
+  </div>
+  <a href="https://github.com/anamika2205/grocery-store" target="_blank">View on GitHub</a>
+</div>
+
+</div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications" data-aos="fade-up">
+  <h2 class="section-heading">Certifications</h2>
+
+  <div class="cert-container">
+    <div class="cert-card">
+      <div class="cert-icon">🏅</div>
+      <div class="cert-content">
+        <h3>GFG160 DSA Challenge</h3>
+        <p>GeeksforGeeks</p>
+        <a href="https://drive.google.com/file/d/1soRQTeYrJ-a9Aurr4l1uU_9XJY_iXf1p/view" target="_blank">
+          View Certificate
+        </a>
+      </div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">🏅</div>
+      <div class="cert-content">
+        <h3>National Level Hackathon – Manthan’25</h3>
+        <p>COER University</p>
+        <a href="https://drive.google.com/file/d/1hfgue5xOYhdgc6D7x6Az9ciAifpR6Ehn/view" target="_blank">
+          View Certificate
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" data-aos="fade-up" class="contact-section">
+    <h2 class="section-heading">Contact Me</h2>
+    <div class="contact-container">
+      <div class="contact-card">
+        <i class="fas fa-envelope"></i>
+        <span>Email: anamikashar2205@gmail.com</span>
+      </div>
+      <a href="https://linkedin.com/in/anamika---sharma/" target="_blank" class="contact-card">
+        <i class="fab fa-linkedin"></i>
+        <span>LinkedIn: linkedin.com/in/anamika---sharma/</span>
+      </a>
+      <a href="https://github.com/anamika2205" target="_blank" class="contact-card">
+        <i class="fab fa-github"></i>
+        <span>github.com/anamika2205</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Anamika | All rights reserved</p>
+  </footer>
+
+  <button id="topBtn" title="Back to top">↑</button>
+
+  
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Java Programming', 'Web Designer', 'Software Development'],
+      typeSpeed: 50,
+      loop: true
+    });
+  </script>
+
+ 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  
+  <script>
+    const topBtn = document.getElementById("topBtn");
+    window.onscroll = () => {
+      topBtn.style.display = window.scrollY > 300 ? "block" : "none";
+    };
+    topBtn.onclick = () => {
+      document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
+    };
+  </script>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector("nav ul").classList.toggle("active");
+    }
+  </script>
+
+  <script>
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll("nav ul li a");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 120;
+      const sectionHeight = section.clientHeight;
+
+      if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active-link");
+      if (link.getAttribute("href") === `#${current}`) {
+        link.classList.add("active-link");
+      }
+    });
+  });
+</script>
+</body>
+</html>
