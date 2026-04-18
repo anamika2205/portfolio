@@ -1,4 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 * {
     margin: 0;
@@ -8,18 +7,13 @@
 }
 
 html {
+    font-size: 16px;
     scroll-behavior: smooth;
-}
-
-section {
-  padding: 100px;
-  scroll-margin-top: 110px;
 }
 
 body {
     background-color: #0f0f3d;
     color: white;
-    overflow-x: hidden;
 }
 
 /* ------------PARTICLES------------- */
@@ -35,10 +29,9 @@ nav {
   position: fixed;
   top: 0px;
   width: 100%;
-  padding: 30px 100px;
+  padding: 15px 100px;
   display: flex;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   justify-content: space-between;
   align-items: center;
   background: rgba(15, 15, 61, 0.9);
@@ -47,7 +40,7 @@ nav {
 }
 
 nav .left {
-  font-size: 2.0rem;
+  font-size: 1.7rem;
   font-weight: 700;
   color: #9c97f1;
 }
@@ -73,15 +66,7 @@ nav ul li a:hover {
 
 .firstSection {
   min-height: 100vh;
-  display: block;
   padding: 0 120px;
-}
-
-.hero-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
 }
 
 .rightSection {
@@ -92,7 +77,7 @@ nav ul li a:hover {
 
 .leftSection {
   flex: 1;
-  font-size: 2.6rem;
+  font-size: 2.1rem;
   max-width: 550px;
 }
 
@@ -112,13 +97,13 @@ nav ul li a:hover {
 
 .btn {
   display: inline-block;
-  padding: 20px 35px;
+  padding: 15px 25px;
   margin-right: 20px;
   border-radius: 50px;
   background: #9c97f1;
   color: #0f0f3d;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   transition: 0.3s;
 }
 
@@ -130,7 +115,7 @@ nav ul li a:hover {
 /* ================= IMAGE ================= */
 
 .rightSection img {
-  width: 400px;
+  width: 350px;
   border-radius: 25px;
   object-fit: cover;
   box-shadow: 0 0 30px rgba(156, 151, 241, 0.3);
@@ -147,12 +132,13 @@ nav ul li a:hover {
 /* ================= COMMON SECTION ================= */
 
 section {
-  padding: 80px 40px;
+  padding: 70px 40px;
+  scroll-margin-top: 110px;
 }
 
 .section-heading {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 30px;
   color: #9c97f1;
 }
@@ -160,34 +146,25 @@ section {
 /* ================= ABOUT ================= */
 
 #about{
-  padding: 80px 20px;
+  padding: 10px 20px;
   text-align: center;  
 }
 
-.section-heading{
-  font-size: 3rem;
-  color:#9c97f1;
-  margin-bottom: 60px;
-}
-
 .about-box {
-  max-width: 1200px;
+  max-width: 950px;
   margin: 0 auto;
   padding: 30px 35px;
   border-radius: 23px;
   background: rgba(255, 255, 255, 0.05);
-  /* backdrop-filter: blur(10px); */
   text-align: left;
   border: 1px solid rgba(255, 255, 255, 0.1);
-
-  /* transition: all 0.3s ease; */
 }
 
 .about-box p {
   color: #cfcfe8;
   line-height: 1.5;
   margin-bottom: 30px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .about-box ul {
@@ -198,7 +175,7 @@ section {
 .about-box ul li {
   color: #cfcfe8;
   margin-bottom: 10px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .about-box ul li::marker {
@@ -208,7 +185,7 @@ section {
 /* ================= EDUCATION ================= */
 
 .education-box {
-  max-width: 1000px;
+  max-width: 750px;
   margin: 0 auto;
   padding: 30px 40px;
   border-radius: 23px;
@@ -229,7 +206,7 @@ section {
 .edu-icon {
   background: rgba(156, 151, 241, 0.15); 
   color: #9c97f1;
-  font-size: 40px;
+  font-size: 30px;
   padding: 5px;
   border-radius: 12px;
 }
@@ -238,30 +215,30 @@ section {
 .edu-content h3 {
   color: #9c97f1;
   margin-bottom: 1px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 .edu-college {
   color: #ddd;
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 
 .edu-year {
   color: #aaa;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .edu-cgpa {
-  margin-top: 6px;
+  margin-top: 1px;
   color: #cfcfe8;
-  font-size: 1.2rem;
+  font-size: 0.95rem;
 }
 
 /* divider */
 .education-box hr {
-  margin: 25px 0;
+  margin: 10px 0;
   border: none;
   height: 1px;
   background: rgba(255, 255, 255, 0.1);
@@ -271,8 +248,8 @@ section {
 .edu-bottom p {
   color: #ddd;
   margin: 6px 0;
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 /* ================= SKILLS ================= */
@@ -286,7 +263,7 @@ section {
 
 /* card */
 .skill-card {
-  width: 650px;
+  width: 450px;
   padding: 30px;
   border-radius: 23px;
   background: rgba(255, 255, 255, 0.05);
@@ -312,7 +289,7 @@ section {
 .skill-icon {
   background: rgba(156, 151, 241, 0.15);
   color: #9c97f1;
-  font-size: 30px;
+  font-size: 25px;
   padding: 10px;
   border-radius: 10px;
 }
@@ -320,18 +297,18 @@ section {
 /* title */
 .skill-card h3 {
   color: #9c97f1;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: 600;
 }
 
 /* list */
 .skill-card ul {
   padding-left: 30px;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .skill-card ul li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #ccc;
   position: relative;
 }
@@ -339,13 +316,13 @@ section {
 /* custom bullet */
 .skill-card ul li::marker {
   color: #9c97f1;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 /* ================= EXPERIENCE ================= */
 
 .experience-box {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 30px 40px;
   border-radius: 23px;
@@ -366,7 +343,7 @@ section {
 .exp-icon {
   background: rgba(156, 151, 241, 0.15);
   color: #9c97f1;
-  font-size: 40px;
+  font-size:30px;
   padding: 5px;
   border-radius: 12px;
 }
@@ -375,46 +352,44 @@ section {
 .exp-content h3 {
   color: #9c97f1;
   margin-bottom: 1px;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 .exp-date {
   color: #aaa;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 10px;
 }
 
 /* list */
 .exp-content ul {
   padding-left: 20px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 .exp-content ul li {
   margin-bottom: 10px;
   color: #ccc;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 /* custom bullets */
 .exp-content ul li::marker {
   color: #9c97f1;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 /* ================= PROJECTS ================= */
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 30px;
-  max-width: 1400px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
   margin: auto;
-  align-items: stretch;
 }
 
-/* card */
 .project-card {
   padding: 30px;
   border-radius: 23px;
@@ -422,31 +397,31 @@ section {
   border: 1px solid rgba(156, 151, 241, 0.25);
   backdrop-filter: blur(10px);
   box-shadow: 0 0 25px rgba(156, 151, 241, 0.08);
-  transition: 0.3s;
+  transition: 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  height: 100%;
 
 }
 
 .project-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-6px);
 }
 
 /* title */
 .project-card h3 {
   color: #fff;
-  font-size: 1.85rem;
+  font-size: 1.4rem;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .project-card p {
   color: #bcbcd4;
-  font-size: 1.3rem;
-  line-height: 1.7;
+  font-size: 0.95rem;
+  line-height: 1.6;
   text-align: left;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .tech-tags {
@@ -460,9 +435,9 @@ section {
 .tech-tags span {
   background: rgba(156, 151, 241, 0.15);
   color: #cfcfe8;
-  padding: 6px 12px;
+  padding: 5px 10px;
   border-radius: 15px;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   font-weight: 500;
 }
 
@@ -476,7 +451,7 @@ section {
 .project-card a {
   margin-top: 20px;
   color: #9c97f1;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 
@@ -488,9 +463,9 @@ section {
 
 .cert-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -498,7 +473,7 @@ section {
   display: flex;
   align-items: center;
   gap: 20px;
-  padding: 25px 30px;
+  padding: 20px 25px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(156, 151, 241, 0.25);
@@ -512,7 +487,7 @@ section {
 }
 
 .cert-icon {
-  font-size: 28px;
+  font-size: 20px;
   padding: 15px;
   border-radius: 12px;
   background: rgba(156, 151, 241, 0.15);
@@ -520,20 +495,20 @@ section {
 }
 
 .cert-content h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 5px;
 }
 
 .cert-content p {
   color: #aaa;
   margin-bottom: 8px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .cert-content a {
   color: #9c97f1;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .cert-content a:hover {
@@ -547,14 +522,8 @@ section {
   padding: 80px 20px;
 }
 
-.section-heading {
-  font-size: 2.5rem;
-  margin-bottom: 40px;
-  color: #b7aaff;
-}
-
 .contact-container {
-  max-width: 800px;
+  max-width: 700px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -566,13 +535,13 @@ section {
   align-items: center;
   justify-content: center;
   gap: 12px;
-  padding: 25px;
+  padding: 15px;
   border-radius: 23px;
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(156,151,241,0.3);
   color: #ddd;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   transition: 0.3s ease;
 }
 
@@ -665,7 +634,7 @@ footer {
 @media (max-width: 900px) {
   nav ul {
     position: absolute;
-    top: 70px;
+    top: 100%;
     right: 0;
     background: rgba(15, 15, 61, 0.95);
     flex-direction: column;
@@ -680,6 +649,11 @@ footer {
 
   .hamburger {
     display: flex;
+  }
+
+  .hero-content{
+    flex-direction:column;
+    text-align:center;
   }
 }
 .active-link {
